@@ -1,3 +1,5 @@
+"use client";
+
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -121,7 +123,7 @@ const RememberPI = () => {
 			<div className="flex flex-row justify-center text-4xl font-bold bg-green-500 border-2 border-white p-2 m-2">
 				Remember PI?
 			</div>
-			<div className="flex flex-col items-center w-1/2 border-2 border-white p-2">
+			<div className="flex flex-col items-center w-100 border-2 border-white p-2">
 				{/* best score */}
 				{newBestScore && (
 					<AnimatePresence initial={false} mode="wait" key="bestScore">
