@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
-    // Use the prefix in production and not development.
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/remember-pi' : '',
+    assetPrefix: isProd ? '/remember-pi/' : '',
+    basePath: isProd ? '/remember-pi' : '',
     output: 'export',
 }
 
