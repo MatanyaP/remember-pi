@@ -1,6 +1,3 @@
-Sure thing! Here's the updated README:
-
-```markdown
 # Remember PI
 
 ## Overview
@@ -20,6 +17,7 @@ This project is deployed using GitHub Pages and is accessible [here](https://mat
 ## Local Installation and Setup
 
 Clone the repository to your local machine:
+
 ```
 
 git clone https://github.com/matanyap/remember-pi.git
@@ -59,6 +57,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-```
-
-This README now includes a link to the live demo of your project, accessible through GitHub Pages.
