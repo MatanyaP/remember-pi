@@ -1,5 +1,3 @@
-Sure thing! Here's the updated README:
-
 ```markdown
 # Remember PI
 
